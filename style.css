@@ -1,0 +1,91 @@
+*{
+    margin: 0px 20px 0px 30px ; 
+    padding: 0px;
+
+}
+
+h5{
+    font-style: oblique;
+}
+nav{
+    background-color: rgb(134, 8, 35);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.busqueda{
+    display: flex;
+    align-items: center;
+
+}
+
+#texto{
+    width: 300px;
+
+}
+
+main{
+    display: flex;
+    padding: 5px;
+    margin: 0px 0px 0px 0px;
+}
+section{
+        height: 600px;
+        width: 480px;
+        margin-left: 20px;
+}
+.izquierda{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cuadro1{
+    border:2px black solid;
+    padding: 10px;
+    margin: 3px 3px 3px 3px;
+    
+}
+
+#gato, #perro{
+    background-color: bisque;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+
+#agregar{
+    border: 25px;
+    padding: 10px 90px;
+    background-color: green;
+    color: white;
+    font-size: 10px;
+    box-shadow: 2px 2px 2px black;
+    border: 2px black solid;
+}
+
+h2, p{
+    
+    padding: 5px;
+}
+
+.parte1{
+    flex: 2;
+}
+
+.parte2{
+    flex:1;
+}
+
+#sesion{
+    border: 2px black solid;
+    padding: 10px 30px;
+    background-color:deepskyblue;
+    color: white;
+    margin: 33px;
+    font-size: 10px;
+    box-shadow: 5px 5px 5px black;
+}
